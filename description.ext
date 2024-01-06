@@ -1,0 +1,22 @@
+author			= "Tiber Brutus";
+onLoadName		= "Combat Simulation Alpha XX";
+onLoadMission	= "This is a template mission to allow the rapid construction of combat simulations.";
+loadScreen		= "poster.jpg";
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Combat Simulation Passed";
+		subtitle = "";
+		description = "";
+		pictureBackground = "poster.jpg";
+	};
+    class End2
+	{
+		title = "Combat Simulation Failed";
+		subtitle = "";
+		description = "";
+		pictureBackground = "poster.jpg";
+	};
+};
